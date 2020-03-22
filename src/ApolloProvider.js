@@ -16,7 +16,7 @@ const authContext = setContext(() => {
 });
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:4000"
+  uri: "https://aqueous-falls-88871.herokuapp.com/"
 });
 
 const client = new ApolloClient({
