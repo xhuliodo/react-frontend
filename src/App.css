@@ -1,0 +1,13 @@
+.ui.primary.button {
+  background-color: #f2711c !important;
+}
+
+.ui.form .field {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.ui.form .field:last-child {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
