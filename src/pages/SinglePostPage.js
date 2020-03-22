@@ -20,6 +20,7 @@ import { UserContext } from "../context/UserContext";
 import { GET_SINGLE_POST } from "../utils/graphql";
 import Comments from "../components/Comments";
 import CustomPopUp from "../utils/CustomPopUp";
+import { Link } from "react-router-dom";
 
 export default function SinglePostPage(props) {
   const { user } = useContext(UserContext);
@@ -85,7 +86,7 @@ export default function SinglePostPage(props) {
                       content="Comment on post"
                       position="right center"
                     >
-                      <Button basic color="orange">
+                      <Button basic color="orange" as={Link} to="/login">
                         <Icon name="comments" />
                       </Button>
                     </CustomPopUp>
